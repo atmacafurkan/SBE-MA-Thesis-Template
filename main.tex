@@ -1,0 +1,36 @@
+\documentclass[12pt, a4paper, oneside, liststotoc, consistentlayout]{report}
+\usepackage{sbe_ma}
+
+
+
+\newcommand{\authname}{Name Surname} 
+\newcommand{\ttitle}{This is Only a Dummy Thesis Title, Not a Real One \\
+Capitalize Your Own Title in the Same Way}
+\newcommand{\ttitletr}{Türkçe Tez Başlığı}
+\newcommand{\univname}{Boğaziçi University}
+\newcommand{\degname}{Master of Arts}
+\newcommand{\deptname}{Linguistics}
+\newcommand{\supname}{Prof.}
+\newcommand{\juryfname}{Prof.}
+\newcommand{\jurysname}{Prof.}
+%repeat the same in capitals
+\newcommand{\authnamecaps}{NAME SURNAME} 
+\newcommand{\ttitlecaps}{THESIS TITLE}
+\newcommand{\ttitletrcaps}{TÜRKÇE TEZ BAŞLIĞI}
+\newcommand{\univnamecaps}{BOĞAZİÇİ UNIVERSITY}
+\newcommand{\degnamecaps}{MASTER OF ARTS}
+\newcommand{\deptnamecaps}{DEPARTMENT}
+
+\begin{document}
+
+\input{loader.tex}
+
+
+\newpage
+% for printing references
+\singlespacing
+\renewcommand\bibname{REFERENCES}
+\bibliographystyle{apa}
+\bibliography{references}
+\addcontentsline{toc}{chapter}{REFERENCES}
+\end{document}
