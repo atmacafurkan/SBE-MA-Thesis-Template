@@ -1,5 +1,5 @@
 # SBE-MA-Thesis-Template
-An MA template in work oriented towards Linguistics studies
+An MA template in work for Boğaziçi SBE. Oriented towards Linguistics studies.
 
 # CAN I USE IT?
 Please be aware that this is not an official use template for writing your thesis.
