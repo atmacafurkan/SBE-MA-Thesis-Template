@@ -1,0 +1,15 @@
+\appendix
+% changing chapter heading for table of content
+\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
+\titlecontents{chapter}[0pt]{}{\MakeUppercase{appendix \thecontentslabel:\quad}\MakeUppercase}{}{\dotfill\contentspage}
+
+
+\setlength\RaggedRightParindent{0cm}
+% PUT YOUR APPENDICIES HERE BY CALLING INPUT FUNCTION %
+\input{endmatter/appendicies/appendixa}
+
+\doublespacing
+\input{endmatter/appendicies/appendixb}
+
+
+\setlength\RaggedRightParindent{1.27cm}
